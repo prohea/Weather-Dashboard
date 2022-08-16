@@ -1,2 +1,13 @@
-# 06-Weather-Dashboard
-Challenge 06
+# Weather Dashboard
+
+# Criteria
+
+# Contributions
+
+# Resources Used
+
+# Technologies Used
+
+# Deployed Project
+
+# Screenshot
