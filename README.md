@@ -19,10 +19,10 @@ THEN I am again presented with current and future conditions for that city
 Starter Code
 
 # Resources Used
-Starter Code
+BootStap, jQuery, open weather map API, 
 
 # Technologies Used
-HTML, CSS
+HTML, CSS, JavaScript
 # Deployed Project
 
 # Screenshot

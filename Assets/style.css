@@ -32,6 +32,9 @@ body {
   background-color: var(--dark);
   color: var(--light);
   border-radius: 5px;
+  position: absolute;
+  right: 370px;
+  top: 170px;
 }
 
 .custom-nav {
@@ -58,16 +61,20 @@ body {
 
 .card-header-tabs {
   background-color: var(--blue);
-}
-
-.nav-link:hover {
-  background-color: var(--darkblue);
   border-radius: 5px;
   border-color: var(--darkblue);
 }
 
+.nav-link:hover {
+  background-color: var(--darkblue);
+}
+
 .custom-link:hover {
   background-color: var(--blue);
+}
+
+.custom-link:active {
+  background-color: var(--darkblue);
 }
 
 /* Create three equal columns that float next to each other */
