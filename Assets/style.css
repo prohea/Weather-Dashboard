@@ -95,6 +95,10 @@ a.nav-link.custom-link.active:active {
     width: 100%;
   }
 }
+.footer {
+    background-color: var(--dark);
+    padding: 10px;
+  }
 
 #button {
   cursor: pointer;
