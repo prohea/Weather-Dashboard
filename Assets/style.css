@@ -22,6 +22,10 @@ body {
 .custom-jumbotron {
   background-color: var(--dark);
   color: var(--light);
+  background-image: url("https://33.media.tumblr.com/ba63ac0eb2349fb7d0af399789498b09/tumblr_mxlwabz0pU1rgpyeqo1_400.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
 }
 
 .custom-navbar {
@@ -52,18 +56,18 @@ body {
   color: var(--light);
 }
 
-.card-header {
-    background-color: var(--darkblue);
+.card-header-tabs {
+  background-color: var(--blue);
 }
 
-.card-header-tabs:hover {
-    background-color: var(--blue);
-    border-radius: 5px;
-    border-color: var(--darkblue);
+.nav-link:hover {
+  background-color: var(--darkblue);
+  border-radius: 5px;
+  border-color: var(--darkblue);
 }
 
 .custom-link:hover {
-    background-color: var(--blue);
+  background-color: var(--blue);
 }
 
 /* Create three equal columns that float next to each other */
