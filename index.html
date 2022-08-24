@@ -29,7 +29,7 @@
           </nav>
     </header>
     <main>
-      <section>
+    <section>
         <div id="oneday"></div>
         <div id="fiveday"></div>
       </section>
@@ -37,14 +37,14 @@
         <div class="card-header">
           <ul class="nav custom-nav nav-tabs custom-tabs card-header-tabs">
             <li class="nav-item border border-primary">
-              <a class="nav-link custom-link active" aria-current="true" href="#">Active</a>
+              <a class="nav-link custom-link active" aria-current="true" data-toggle="popover" data-placement="bottom" data-content="">Active</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
+            <li class="nav-item border border-primary">
+                <a class="nav-link custom-link active" aria-current="true" data-toggle="popover" data-placement="bottom" data-content="">Active</a>
+              </li>
+              <li class="nav-item border border-primary">
+                <a class="nav-link custom-link active" aria-current="true" data-toggle="popover" data-placement="bottom" data-content="">Active</a>
+              </li>
           </ul>
         </div>
         <div class="card-body">
@@ -54,6 +54,8 @@
         </div>
       </div>
 
+
+      
     </main>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

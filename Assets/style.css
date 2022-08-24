@@ -62,18 +62,17 @@ body {
 .card-header-tabs {
   background-color: var(--blue);
   border-radius: 5px;
-  border-color: var(--darkblue);
 }
 
-.nav-link:hover {
-  background-color: var(--darkblue);
-}
-
-.custom-link:hover {
+a.nav-link.custom-link.active {
   background-color: var(--blue);
+  color: var(--light);
+  border: var(--darkblue);
+  border-style: ridge;
+  border-bottom-width: 0px;
 }
 
-.custom-link:active {
+a.nav-link.custom-link.active:active {
   background-color: var(--darkblue);
 }
 
