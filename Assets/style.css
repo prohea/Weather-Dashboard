@@ -62,14 +62,15 @@ body {
 .card-header-tabs {
   background-color: var(--blue);
   border-radius: 5px;
+  border-bottom-color: var(--darkblue);
 }
 
 a.nav-link.custom-link.active {
-  background-color: var(--blue);
+  background-color: var(--darkblue);
   color: var(--light);
   border: var(--darkblue);
   border-style: ridge;
-  border-bottom-width: 0px;
+  border-bottom-style: none;
 }
 
 a.nav-link.custom-link.active:active {
@@ -96,9 +97,9 @@ a.nav-link.custom-link.active:active {
   }
 }
 .footer {
-    background-color: var(--dark);
-    padding: 10px;
-  }
+  background-color: var(--dark);
+  padding: 10px;
+}
 
 #button {
   cursor: pointer;
