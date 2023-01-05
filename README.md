@@ -28,4 +28,4 @@ HTML, CSS, JavaScript
 https://prohea.github.io/Weather-Dashboard/
 
 # Screenshot
-![Weather]()
+![Weather](./Assets/weather-dashboard.png)
