@@ -14,13 +14,13 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="stylesheet" href="./Assets/style.css" />
-    <title>Document</title>
+    <title>Wonder Weather</title>
   </head>
   <body>
     <header class="jumbotron jumbotron-fluid custom-jumbotron">
       <div class="container">
         <h1 class="display-4">Weather Dashboard</h1>
-        <nav class="navbar custom-navbar border border-primary">
+        <nav class="nav custom-navbar border border-primary">
             <h1 class="navbar-brand mb-0 h1" id="searchbox">Search for City</h1>
             <form class="form-inline">
               <input class="form-control mr-sm-2" id="search-input" type="search" placeholder="city name" aria-label="Search">
@@ -30,26 +30,37 @@
     </header>
     <main>
     <section>
-        <div id="oneday"></div>
-        <div id="fiveday"></div>
       </section>
       <div class="card custom-card text-center">
         <div class="card-header">
           <ul class="nav custom-nav nav-tabs custom-tabs card-header-tabs">
             <li class="nav-item border border-primary">
-              <a class="nav-link custom-link active" aria-current="true" data-toggle="popover" data-placement="bottom" data-content="">Month</a>
+              <a class="nav-link custom-link active" aria-current="true" data-toggle="popover" data-placement="bottom" data-content="monthly">Month</a>
             </li>
             <li class="nav-item border border-primary">
-                <a class="nav-link custom-link active" aria-current="true" data-toggle="popover" data-placement="bottom" data-content="">Week</a>
+                <a class="nav-link custom-link active" aria-current="true" data-toggle="popover" data-placement="bottom" data-content="weekly">Week</a>
               </li>
               <li class="nav-item border border-primary">
-                <a class="nav-link custom-link active" aria-current="true" data-toggle="popover" data-placement="bottom" data-content="">Day</a>
+                <a class="nav-link custom-link active" aria-current="true" data-toggle="popover" data-placement="bottom" data-content="daily">Day</a>
               </li>
           </ul>
         </div>
         <div class="card-body">
           <h5 class="card-title"></h5>
-          <p class="card-text"></p>
+          <p class="card-text">
+            <article id="daily">
+              <ul id="day">
+              </ul>
+            </article>
+            <article id="weekly">
+              <ul id="day">
+              </ul>
+            </article>
+            <article id="monthly">
+              <ul id="day">
+              </ul>
+            </article>
+          </p>
         </div>
       </div>
       <footer class="navbar navbar-dark bg-dark">
@@ -57,9 +68,6 @@
           <img src="https://i.pinimg.com/originals/14/d9/d2/14d9d273358923d3686deb602f1c5957.gif" width="45" height="45" class="d-inline-block align-top" alt="egg" loading="lazy">
           Thank You
         </a></footer>
-
-
-      
     </main>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

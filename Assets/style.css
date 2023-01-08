@@ -3,6 +3,14 @@
   --light: white;
   --darkblue: #132f4a;
   --blue: rgb(34, 100, 215);
+  --red: rgb(99, 28, 28);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 body {
@@ -73,8 +81,8 @@ a.nav-link.custom-link.active {
   border-bottom-style: none;
 }
 
-a.nav-link.custom-link.active:active {
-  background-color: var(--darkblue);
+a.nav-link.custom-link.active:hover {
+  background-color: var(--red);
 }
 
 /* Create three equal columns that float next to each other */
@@ -103,4 +111,24 @@ a.nav-link.custom-link.active:active {
 
 #button {
   cursor: pointer;
+}
+
+.weather-box {
+  display: flex;
+  margin: 5px;
+  justify-content: space-around;
+  padding: 5px;
+  border: 5px solid white;
+}
+
+li.temp-li {
+  flex-direction: column;
+}
+
+li.wind-li {
+  flex-direction: column;
+}
+
+li.humidity-li {
+  flex-direction: column;
 }
