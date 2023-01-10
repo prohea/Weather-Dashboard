@@ -25,7 +25,7 @@ BootStap, jQuery, open weather map API,
 HTML, CSS, JavaScript
 
 # Deployed Project
-https://prohea.github.io/Weather-Dashboard/
+https://github.com/prohea/Wonder-Weather
 
 # Screenshot
 ![Weather](./Assets/weather-dashboard.png)
